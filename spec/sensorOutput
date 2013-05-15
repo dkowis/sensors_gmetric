@@ -1,0 +1,222 @@
+w83627hf-isa-0290
+Adapter: ISA adapter
+in0:
+  in0_input: 1.504
+  in0_min: 1.344
+  in0_max: 1.648
+  in0_alarm: 0.000
+  in0_beep: 0.000
+in1:
+  in1_input: 1.408
+  in1_min: 1.248
+  in1_max: 1.536
+  in1_alarm: 0.000
+  in1_beep: 0.000
+in2:
+  in2_input: 3.328
+  in2_min: 2.960
+  in2_max: 3.616
+  in2_alarm: 0.000
+  in2_beep: 0.000
+in3:
+  in3_input: 2.992
+  in3_min: 0.656
+  in3_max: 1.264
+  in3_alarm: 1.000
+  in3_beep: 0.000
+in4:
+  in4_input: 3.184
+  in4_min: 2.832
+  in4_max: 3.472
+  in4_alarm: 0.000
+  in4_beep: 0.000
+in5:
+  in5_input: 0.592
+  in5_min: 0.416
+  in5_max: 0.880
+  in5_alarm: 0.000
+  in5_beep: 0.000
+in6:
+  in6_input: 0.992
+  in6_min: 3.360
+  in6_max: 3.168
+  in6_alarm: 1.000
+  in6_beep: 0.000
+in7:
+  in7_input: 3.296
+  in7_min: 2.976
+  in7_max: 3.632
+  in7_alarm: 0.000
+  in7_beep: 0.000
+in8:
+  in8_input: 3.056
+  in8_min: 2.960
+  in8_max: 3.616
+  in8_alarm: 0.000
+  in8_beep: 0.000
+fan1:
+  fan1_input: 0.000
+  fan1_min: 8035.000
+  fan1_alarm: 1.000
+  fan1_div: 2.000
+  fan1_beep: 0.000
+fan2:
+  fan2_input: 0.000
+  fan2_min: 2689.000
+  fan2_alarm: 1.000
+  fan2_div: 2.000
+  fan2_beep: 0.000
+fan3:
+  fan3_input: 0.000
+  fan3_min: 2721.000
+  fan3_alarm: 1.000
+  fan3_div: 2.000
+  fan3_beep: 0.000
+temp1:
+  temp1_input: 60.000
+  temp1_max: 80.000
+  temp1_max_hyst: 75.000
+  temp1_alarm: 0.000
+  temp1_type: 4.000
+  temp1_beep: 0.000
+temp2:
+  temp2_input: 30.000
+  temp2_max: 80.000
+  temp2_max_hyst: 75.000
+  temp2_alarm: 0.000
+  temp2_type: 4.000
+  temp2_beep: 0.000
+temp3:
+  temp3_input: 18.500
+  temp3_max: 80.000
+  temp3_max_hyst: 75.000
+  temp3_alarm: 0.000
+  temp3_type: 4.000
+  temp3_beep: 0.000
+cpu0_vid:
+  cpu0_vid: 1.550
+beep_enable:
+  beep_enable: 1.000
+
+w83793-i2c-5-2c
+Adapter: SMBus nForce2 adapter at 2e00
+VcoreA:
+  in0_input: 1.042
+  in0_min: 1.080
+  in0_max: 1.622
+  in0_alarm: 1.000
+  in0_beep: 0.000
+VcoreB:
+  in1_input: 1.016
+  in1_min: 1.080
+  in1_max: 1.622
+  in1_alarm: 1.000
+  in1_beep: 0.000
+in2:
+  in2_input: 1.132
+  in2_min: 1.080
+  in2_max: 1.326
+  in2_alarm: 0.000
+  in2_beep: 0.000
+in3:
+  in3_input: 0.864
+  in3_min: 0.000
+  in3_max: 4.080
+  in3_alarm: 0.000
+  in3_beep: 0.000
+in4:
+  in4_input: 0.864
+  in4_min: 0.000
+  in4_max: 4.080
+  in4_alarm: 0.000
+  in4_beep: 0.000
+in5:
+  in5_input: 1.792
+  in5_min: 1.616
+  in5_max: 1.984
+  in5_alarm: 0.000
+  in5_beep: 0.000
+in6:
+  in6_input: 1.824
+  in6_min: 1.616
+  in6_max: 1.976
+  in6_alarm: 0.000
+  in6_beep: 0.000
++5V:
+  in7_input: 5.070
+  in7_min: 4.518
+  in7_max: 5.502
+  in7_alarm: 0.000
+  in7_beep: 0.000
+5VSB:
+  in8_input: 5.046
+  in8_min: 4.518
+  in8_max: 5.502
+  in8_alarm: 0.000
+  in8_beep: 0.000
+Vbat:
+  in9_input: 3.040
+  in9_min: 2.704
+  in9_max: 3.296
+  in9_alarm: 0.000
+  in9_beep: 0.000
+fan1:
+  fan1_input: 0.000
+  fan1_min: 712.000
+  fan1_alarm: 1.000
+  fan1_beep: 0.000
+fan2:
+  fan2_input: 0.000
+  fan2_min: 712.000
+  fan2_alarm: 1.000
+  fan2_beep: 0.000
+fan3:
+  fan3_input: 0.000
+  fan3_min: 712.000
+  fan3_alarm: 1.000
+  fan3_beep: 0.000
+fan4:
+  fan4_input: 1515.000
+  fan4_min: 712.000
+  fan4_alarm: 0.000
+  fan4_beep: 0.000
+fan5:
+  fan5_input: 1626.000
+  fan5_min: 712.000
+  fan5_alarm: 0.000
+  fan5_beep: 0.000
+fan6:
+  fan6_input: 1609.000
+  fan6_min: 712.000
+  fan6_alarm: 0.000
+  fan6_beep: 0.000
+fan7:
+  fan7_input: 1456.000
+  fan7_min: 712.000
+  fan7_alarm: 0.000
+  fan7_beep: 0.000
+fan8:
+  fan8_input: 1520.000
+  fan8_min: 712.000
+  fan8_alarm: 0.000
+  fan8_beep: 0.000
+temp1:
+  temp1_input: 23.750
+  temp1_max: 72.000
+  temp1_max_hyst: 67.000
+  temp1_alarm: 0.000
+  temp1_type: 3.000
+  temp1_beep: 0.000
+temp2:
+  temp2_input: 27.250
+  temp2_max: 72.000
+  temp2_max_hyst: 67.000
+  temp2_alarm: 0.000
+  temp2_type: 3.000
+  temp2_beep: 0.000
+intrusion0:
+  intrusion0_alarm: 0.000
+beep_enable:
+  beep_enable: 0.000
+
+

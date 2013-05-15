@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'sensor_gmetric'
+
+s = SensorParser.new
